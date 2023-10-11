@@ -5,7 +5,6 @@ A simple rule-based chatbot for retail that can answer customer queries related 
 ## Table of Contents
 - [About](#about)
 - [Features](#features)
-- [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Run App](#run-ai)
