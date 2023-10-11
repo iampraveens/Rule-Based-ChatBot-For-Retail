@@ -2,4 +2,4 @@ streamlit
 tensorflow
 keras
 numpy
-nltk
+nltk==3.6.3
