@@ -1,0 +1,48 @@
+{"intents": [
+    {"tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+      "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+      "context_set": ""
+    },
+    {"tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+      "context_set": ""
+    },
+    {"tag": "stock",
+      "patterns": ["Do you have fruits in stock?"],
+      "responses": [ "Let me check for you. Please wait a moment... Yes, we have apple, orange, grapes and pear in stock."],
+      "context_set": ""
+    },
+    {"tag": "promotions",
+      "patterns": ["Can you check if there are any promotions or discounts on fruits?"],
+      "responses": ["Sorry! currently, we don't have a promotion on fruits"],
+      "context_set": ""
+    },
+    {"tag": "return_policy",
+      "patterns": ["What's the return policy for online orders?"],
+      "responses": ["Our return policy for online orders allows you to return items within 2hrs days of purchase on fruits and vegetables, provided they are in their original condition."],
+      "context_set": ""
+    },
+    {"tag": "track_order",
+      "patterns": ["How can I track my online order?"],
+      "responses": ["You can track your order by entering your order number on our website. Here's the appus.com."],
+      "context_set": ""
+    },
+    {"tag": "payment_methods",
+      "patterns": ["What payment methods do you accept?"],
+      "responses": ["We accept UPI, including credit cards, debit cards, and PayPal."],
+      "context_set": ""
+    },
+    {"tag": "order_status",
+      "patterns": ["What's the status of my recent order?"],
+      "responses": ["Let me check the status of your recent order. Please provide your order number..."],
+      "context_set": ""
+    },
+    {"tag": "forgot_password",
+      "patterns": ["I forgot my password. How can I reset it?"],
+      "responses": [ "To reset your password, please visit our website and click on the 'Forgot Password' link. You'll receive an email with instructions to reset your password."],
+      "context_set": ""
+    }
+  ]
+  }
