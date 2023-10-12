@@ -10,6 +10,7 @@ A simple rule-based chatbot for retail that can answer customer queries related 
 - [Run App](#run-ai)
 - [Usage](#usage)
 - [Dockerized Web App](#dockerized-web-app)
+- [Customization](#customization)
 - [License](#license)
 
 ## About
@@ -76,6 +77,9 @@ Else if you want to access my pre-built container, here is the code below to pul
 ```bash
 docker pull iampraveens/rule-based-chatbot-app:latest
 ```
+
+## Customization
+You can customize by adding more intents to `intents.json` file. Feel free to adapt and extend the system to suit your specific use case.
 
 ## License 
 This project is licensed under the MIT License - see the [License](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt) file for details.
