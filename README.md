@@ -59,6 +59,8 @@ streamlit run app.py
 
 - Type your questions or greetings in the input box and press Enter to get responses from the chatbot.
 - The chatbot will understand your intent and respond accordingly.
+- Questions can be ask:
+  - Hi, How are you, Hello.
 
 ## Dockerized Web App
 You can also deploy the Rule Based ChatBot For Retail web application using Docker. Build the Docker image and run the container:
